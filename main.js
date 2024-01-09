@@ -3,19 +3,19 @@ const ul = document.querySelector( 'ul.list' )
 for( let i = 0; i <= 100; i++){
 
     if(i % 15 == 0){
-        const element = '<li style="color: red" >fizzBuzz</li>'
+        const element = '<li style="color: red">FizzBuzz</li>'
         ul.innerHTML += element
 
     }else if(i % 3 == 0){
-        const element = '<li style="color: blue" >fizz</li>'
+        const element = '<li style="color: blue">Fizz</li>'
         ul.innerHTML += element
         
     }else if(i % 5 == 0){
-        const element = '<li style="color: orange" >Buzz</li>'
+        const element = '<li style="color: orange">Buzz</li>'
         ul.innerHTML += element
 
     }else{
-        const element = '<li style="color: black" ></li>'
+        const element = '<li style="color: black"></li>'
         ul.innerHTML += element
 
     }
